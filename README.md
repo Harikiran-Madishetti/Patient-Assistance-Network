@@ -56,6 +56,10 @@ All the details required to build a database system is present in [Design_Requir
 
 The data dictionary for PAN Database System can be found [here.](Data_Dictionary.pdf)
 
-#### Data Structure
+## File Organization
 
-The storage structure of the tables defined in relational schema can be found [here.](Storage_Structure.pdf)
+The File Organization of the tables defined in relational schema can be found [here.](Storage_Structure.pdf)
+
+## DB Table Creation
+
+The SQL statements to be created in the database can be found [here.](Create_Tables.sql)
