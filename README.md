@@ -10,11 +10,11 @@ The Patient Assistance Network (PAN) is a non-profit organization that provides 
 
 ## System Requirements
 
-All the details required to build a database system is present in [Design_Requirements.md](https://github.com/Harikiran-Madishetti/Patient-Assistance-Network/blob/main/Design_Requirements.md 'Design_Requirements.md')
+All the details required to build a database system is present in [Design_Requirements.md](Design_Requirements.md)
 
 ## Entity-Relationship Diagram
 
-![ER Diagram](ER_Diagram.png)
+![](ER_Diagram.png)
 
 ## Database Relational Schema
 
@@ -51,3 +51,11 @@ All the details required to build a database system is present in [Design_Requir
 4. Work (SSN, Name, Months, Hours)
 5. Sponsor (Team_Name, Org_Name)
 6. Reports (Name, SSN, Date, Description)
+
+## Data Dictionary
+
+The data dictionary for PAN Database System can be found [here.](data_dictionary.pdf)
+
+#### Data Structure
+
+The storage structure of the tables defined in relational schema can be found [here.](storage_structure.pdf)
