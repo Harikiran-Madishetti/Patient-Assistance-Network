@@ -10,6 +10,8 @@ The Patient Assistance Network (PAN) is a non-profit organization that provides 
 
 ## System Requirements
 
-All the details required to build a database system is present in [Design_Requirements.md](https://github.com/Harikiran-Madishetti/Patient-Assistance-Network/blob/main/Design_Requirements.md 'Design_Requirements.md')
+All the details required to build a database system is present in [Design_Requirements.md](Design_Requirements.md)
 
 ## Entity-Relationship Diagram
+
+![ER Diagram](ER_Diagram.png)
