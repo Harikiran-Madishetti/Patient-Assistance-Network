@@ -14,40 +14,40 @@ All the details required to build a database system is present in [Design_Requir
 
 ## Entity-Relationship Diagram
 
-![ER Diagram](<![](https://github.com/Harikiran-Madishetti/Patient-Assistance-Network/blob/main/ER_Diagram.png)> 'ER Diagram')
+[ER Diagram](ER_Diagram.png)
 
 ## Database Relational Schema
 
 #### Entity Sets:
 
-Person (SSN, Birth_Date, Race, Gender, Profession, Mailing_Address, Email_Address,
-Home_phone, Cell_Phone, Work_Phone, Mailing_List, Org_Name)
-Client (SSN, Doc_Name, Doc_Phone, Att_Name, Att_Phone, Assigned_Date)
-Volunteer (SSN, Joining_Date, Training_Date, Training_Location)
-Employee (SSN, Salary, Marital_Status, Hire_Date)
-Donor (SSN, Anonymous)
-Emerg_Contact (SSN, Name, Contact_Info, Relationship)
-Insurance_policy (Policy_Id, SSN, Provider_Id, Provider_Address, Policy_Type)
-Needs (SSN, Need_Type, Importance)
-Teams (Name, Type, Formation_Date)
-Expenses (SSN, Date, Amount, Description)
-Donor_Donations (SSN, Date, Amount, Campaign_Name, Type)
-Donor_Donations_Check (SSN, Date, Amount, Campaign_Name, Type, Check_No)
-Donor_Donations_Card (SSN, Date, Amount, Campaign_Name, Type, Card_No, Card_Type,
-Exp_Date)
-Organization (Name, Mailing_Address, Phone_No, Contact_Person)
-Church (Name, Religious_Affiliation)
-Business (Name, Business_Type, Size, Company_Website)
-Org_Donations (Name, Date, Amount, Campaign_Name, Type, Anonymous)
-Org_Donations_Check (Name, Date, Amount, Campaign_Name, Type, Check_No)
-Org_Donations_Card (Name, Date, Amount, Campaign_Name, Type, Card_No, Card_Type,
-Exp_Date)
+1. Person (SSN, Birth_Date, Race, Gender, Profession, Mailing_Address, Email_Address,
+   Home_phone, Cell_Phone, Work_Phone, Mailing_List, Org_Name)
+2. Client (SSN, Doc_Name, Doc_Phone, Att_Name, Att_Phone, Assigned_Date)
+3. Volunteer (SSN, Joining_Date, Training_Date, Training_Location)
+4. Employee (SSN, Salary, Marital_Status, Hire_Date)
+5. Donor (SSN, Anonymous)
+6. Emerg_Contact (SSN, Name, Contact_Info, Relationship)
+7. Insurance_policy (Policy_Id, SSN, Provider_Id, Provider_Address, Policy_Type)
+8. Needs (SSN, Need_Type, Importance)
+9. Teams (Name, Type, Formation_Date)
+10. Expenses (SSN, Date, Amount, Description)
+11. Donor_Donations (SSN, Date, Amount, Campaign_Name, Type)
+12. Donor_Donations_Check (SSN, Date, Amount, Campaign_Name, Type, Check_No)
+13. Donor_Donations_Card (SSN, Date, Amount, Campaign_Name, Type, Card_No, Card_Type,
+    Exp_Date)
+14. Organization (Name, Mailing_Address, Phone_No, Contact_Person)
+15. Church (Name, Religious_Affiliation)
+16. Business (Name, Business_Type, Size, Company_Website)
+17. Org_Donations (Name, Date, Amount, Campaign_Name, Type, Anonymous)
+18. Org_Donations_Check (Name, Date, Amount, Campaign_Name, Type, Check_No)
+19. Org_Donations_Card (Name, Date, Amount, Campaign_Name, Type, Card_No, Card_Type,
+    Exp_Date)
 
 #### Relationships:
 
-Cares (SSN, Name, Active)
-Serves (SSN, Name)
-Leader (Name, SSN)
-Work (SSN, Name, Months, Hours)
-Sponsor (Team_Name, Org_Name)
-Reports (Name, SSN, Date, Description)
+1. Cares (SSN, Name, Active)
+2. Serves (SSN, Name)
+3. Leader (Name, SSN)
+4. Work (SSN, Name, Months, Hours)
+5. Sponsor (Team_Name, Org_Name)
+6. Reports (Name, SSN, Date, Description)
