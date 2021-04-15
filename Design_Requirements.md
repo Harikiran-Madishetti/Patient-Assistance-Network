@@ -14,7 +14,7 @@ PAN depends on support from its donors. The database should track these people a
 
 Each person in the database may be affiliated with an external organization. The database should track this information as well. Each organization should have a unique name, mailing address, phone number, and contact person. In addition, each organization may sponsor one or more PAN teams, and a team may have more than one sponsor. If the organization is a business, the database should record the business type, size, and company web site. If the organization is a church, the database should record its religious affiliation. Each organization may also make several donations to PAN, and the database should track the same donation information as it does for individual donors. This includes the ability for the organization to make anonymous donations.
 
-### Queries and Their Frequencies for the PAN Database System
+### The below options needed to be performed by JAVA applications
 
 1. Enter a new team into the database (1/month).
 2. Enter a new client into the database and associate him or her with one or more teams (1/week).
@@ -33,3 +33,6 @@ Each person in the database may be affiliated with an external organization. The
 15. Retrieve the names of all teams that were founded after a particular date (1/month).
 16. Increase the salary by 10% of all employees to whom more than one team must report. (1/year)
 17. Delete all clients who do not have health insurance and whose value of importance for transportation is less than 5 (4/year).
+18. Import: enter new teams from a data file until the file is empty (the user must be asked to enter the input file name).
+19. Export: Retrieve names and mailing addresses of all people on the mailing list and output them to a data file instead of screen (the user must be asked to enter the output file name).
+20. Quit
