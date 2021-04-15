@@ -67,3 +67,7 @@ The SQL statements to be created in the database can be found [here.](Create_Tab
 ## Insert Data and Perform Tasks
 
 The SQL statements to insert the data and the queries which can be used to do all the tasks as mentioned in [Design_Requirements.md](Design_Requirements.md) can be found [here.](Tasks.sql)
+
+## JAVA Application
+
+All the tasks listed in the requirements can be executed using the JAVA application. On running the application will display the list of actions that can be performed by the user. The user can give the number associated with the task. I have also developed web based JAVA application using JSP and hosted the application using TOMCAT SERVER.
