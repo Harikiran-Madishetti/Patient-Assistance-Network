@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:16:03:56 -0600] "GET /IP_TASK7/add_new_team.jsp HTTP/1.1" 500 2433
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:16:04:17 -0600] "GET /IP_TASK7/new_teams_form.jsp HTTP/1.1" 200 1738
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:16:20:34 -0600] "GET /IP_TASK7/add_new_team.jsp?team_name=LAL&team_type=SEKET+BALL&formation_date=BA HTTP/1.1" 500 4322
