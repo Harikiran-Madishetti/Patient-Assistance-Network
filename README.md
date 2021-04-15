@@ -14,7 +14,7 @@ All the details required to build a database system is present in [Design_Requir
 
 ## Entity-Relationship Diagram
 
-![](ER_Diagram.png)
+![](ER_Diagram.jpg)
 
 ## Database Relational Schema
 
