@@ -63,3 +63,7 @@ The File Organization of the tables defined in relational schema can be found [h
 ## DB Table Creation
 
 The SQL statements to be created in the database can be found [here.](Create_Tables.sql)
+
+## Insert Data and Perform Tasks
+
+The SQL statements to insert the data and the queries which can be used to do all the tasks as mentioned in [Design_Requirements.md](Design_Requirements.md) can be found [here.](Tasks.sql)
