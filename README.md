@@ -1,6 +1,6 @@
 # A PATIENT ASSISTANT NETWORK DATABASE SYSTEM
 
-#### Author: Harikiran Madishetti
+#### Author: Harikiran M
 
 ---
 
